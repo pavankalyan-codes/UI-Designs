@@ -1,0 +1,490 @@
+body {
+    background: url(./images/desktop/image-hero.jpg);
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.highlight {
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.highlight:hover {
+    animation: myborder 1s forwards;
+}
+
+@keyframes myborder {
+    from {
+        border: 2px solid rgba(255, 255, 255, 0);
+    }
+    to {
+        border: 2px solid rgb(255, 255, 255);
+    }
+    last {
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+
+.nav-menu {
+    width: 100%;
+    justify-content: space-evenly;
+    font-weight: bold;
+    height: 100%;
+    align-items: center;
+}
+
+.footer-nav {
+    justify-content: space-between;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.title {
+    width: 70%;
+    background: transparent;
+    height: auto;
+    border: 2px solid white;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+    font-weight: 400;
+}
+
+@keyframes flash {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.title-wrapper {
+    padding: 5% 20% 5% 5%;
+    font-size: 5vw;
+}
+
+.main {
+    height: 100%;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card1 {
+    width: 60%;
+}
+
+@keyframes leftmove {
+    from {
+        opacity: 0;
+        margin-left: -100px;
+    }
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+.fit-div {
+    width: 100%;
+    /* animation: leftmove 1s ease-out; */
+}
+
+.card2 {
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    z-index: 1111;
+    left: 600px;
+    top: 300px;
+    height: 50%;
+}
+
+@keyframes rightmove {
+    from {
+        opacity: 0;
+        left: 800px;
+    }
+    to {
+        opacity: 1;
+        left: 600px;
+    }
+}
+
+.col-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content1 {
+    position: relative;
+    margin: auto;
+    padding: 100px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.font-small {
+    font-weight: 300;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.content-wrap {
+    color: black;
+    padding: 50px 222px 50px 50px;
+}
+
+.main-content {
+    height: 100%;
+}
+
+.main-inner {
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content {
+    font-weight: 300;
+    color: #3c3838;
+}
+
+.creations-inner {
+    padding: 0px 100px 100px 100px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1111;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    width: 150px;
+}
+
+.see-all {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient( 90deg, #000000 50%, transparent 50%);
+    background-image: linear-gradient(90deg, #000000 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.see-all:hover {
+    background-position: 0;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+
+.creations {
+    color: black;
+}
+
+.mygrid {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.fs-30 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.gallery {
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    margin-top: 10px;
+    position: relative;
+}
+
+.footer {
+    background-color: black;
+}
+
+.col1 {
+    height: 50%;
+}
+
+.footer-inner {
+    padding: 20px 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fit-c {
+    width: fit-content;
+}
+
+.fw-300 {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.social-icons {
+    width: auto;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.col2 {
+    height: 50%;
+}
+
+.fh {
+    height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content1 {
+        margin: auto;
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        width: auto;
+    }
+    .card2 {
+        position: unset;
+        width: auto;
+    }
+    .content-wrap {
+        padding: 50px;
+        text-align: center;
+    }
+    .card-content {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .nav-menu {
+        width: auto;
+    }
+    .hide-menu {
+        display: none;
+    }
+    .main-inner {
+        height: 100%;
+        justify-content: space-between;
+    }
+    body {
+        background-image: url(./images/mobile/image-hero.jpg);
+    }
+    .hamburger {
+        display: block;
+    }
+    .title {
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 300px;
+    }
+    .title-wrapper {
+        padding: 10%;
+    }
+    .creations-inner {
+        padding: 10px;
+    }
+    .content1 {
+        margin: auto;
+        padding: 50px 10px 50px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        width: auto;
+    }
+    .card2 {
+        position: unset;
+        width: auto;
+    }
+    .content-wrap {
+        padding: 50px;
+    }
+    .fs-30 {
+        font-weight: 400;
+    }
+    .flex-item {
+        width: 100%;
+    }
+    .font-small {
+        font-weight: 400;
+        font-size: 30px;
+        text-align: center;
+    }
+    .card-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .see-all {
+        display: none;
+    }
+    .img1 {
+        content: url(./images/mobile/image-deep-earth.jpg);
+    }
+    .img2 {
+        content: url(./images/mobile/image-night-arcade.jpg);
+    }
+    .img3 {
+        content: url(./images/mobile/image-soccer-team.jpg);
+    }
+    .img4 {
+        content: url(./images/mobile/image-grid.jpg);
+    }
+    .img5 {
+        content: url(./images/mobile/image-from-above.jpg);
+    }
+    .img6 {
+        content: url(./images/mobile/image-pocket-borealis.jpg);
+    }
+    .img7 {
+        content: url(./images/mobile/image-curiosity.jpg);
+    }
+    .img8 {
+        content: url(./images/mobile/image-fisheye.jpg);
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8 {
+        width: 100%;
+    }
+    .jcenter {
+        justify-content: center;
+    }
+    .align-center {
+        align-items: center;
+    }
+    .footer-inner {
+        padding: 10px;
+        height: auto;
+        flex-direction: column;
+    }
+    .highlight {
+        width: auto;
+    }
+    .footer-nav {
+        flex-direction: column;
+        font-size: 20px;
+        height: 200px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .ham-menu {
+        background-color: rgba(0, 0, 0, 0.856);
+        height: 100%;
+        width: 100%;
+    }
+    .mygrid {
+        grid-gap: 0;
+        grid-template-columns: auto;
+    }
+}
+
+.close-btn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.align-unset {
+    align-items: unset;
+}
+
+.ham-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ham-inner {
+    padding: 50px;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    height: 200px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 50px 0px 0px 0px;
+}
