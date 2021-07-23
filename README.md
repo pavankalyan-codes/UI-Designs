@@ -17,8 +17,8 @@
 | 13  |        [Stats preview card component](https://github.com/pavankalyan-codes/UI-Designs/tree/main/stats-preview-card-component)         |             [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/stats-preview-card-component/)             |
 | 14  |            [Testimonial-grid-section](https://github.com/pavankalyan-codes/UI-Designs/tree/main/testimonials-grid-section)            |              [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/testimonials-grid-section/)               |
 | 15  | [Three-column-preview-card-component](https://github.com/pavankalyan-codes/UI-Designs/tree/main/three-column-preview-card-component)  |         [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/three-column-preview-card-component/)          |
-| 16  |                  [Url Shortening Api](https://github.com/pavankalyan-codes/UI-Designs/tree/main/url-shortening-api)                   |                        [Live Demo](https://vanillawebprojects.com/projects//relaxer-app/)                         |
-| 17  |           [Four card feature section](https://github.com/pavankalyan-codes/UI-Designs/tree/main/four-card-feature-section)            |                  [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/url-shortening-api/)                  |
+| 16  |                  [Url Shortening Api](https://github.com/pavankalyan-codes/UI-Designs/tree/main/url-shortening-api)                   |                  [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/url-shortening-api/)                  |
+| 17  |           [Four card feature section](https://github.com/pavankalyan-codes/UI-Designs/tree/main/four-card-feature-section)            |              [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/four-card-feature-section/)               |
 
 ## Contributing
 
