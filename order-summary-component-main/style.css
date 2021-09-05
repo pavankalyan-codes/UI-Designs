@@ -1,0 +1,79 @@
+body{
+    background: #dfe8ff;
+    margin:0;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    
+}
+
+.br-10{
+    border-radius: 10px;
+}
+
+.order-info{
+    height: max(100vh,500px);
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-wrapper{
+    margin-left: -15px;
+    margin-right: -15px
+}
+.plan{
+    background-color: #f8f9fe;
+    border-radius: 10px;
+}
+
+.order-button{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.order-card{
+    box-shadow: 0px 15px 20px rgb(56 41 224 / 18%) ;
+}
+
+.primary-button{
+    background: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0px 15px 20px rgb(76 64 202 / 31%);
+}
+.secondary-button{
+    color: black;
+    background:transparent;
+}
+.music-img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.order-plan{
+    font-size: 14px;
+    font-weight: 700;
+}
+.order-amount{
+    font-size: 14px;
+    font-weight: 100;
+    color:grey
+}
+.plan-change{
+    text-decoration: underline;
+}
+
+@media (max-width: 480px){
+    .small-device-margin{
+        margin:10px
+    }
+}
+
+@media (max-height: 480px){
+    .order-info{
+        height:auto;
+    }
+}

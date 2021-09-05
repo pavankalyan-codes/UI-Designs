@@ -19,6 +19,7 @@
 | 15  | [Three-column-preview-card-component](https://github.com/pavankalyan-codes/UI-Designs/tree/main/three-column-preview-card-component)  |         [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/three-column-preview-card-component/)          |
 | 16  |                  [Url Shortening Api](https://github.com/pavankalyan-codes/UI-Designs/tree/main/url-shortening-api)                   |                  [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/url-shortening-api/)                  |
 | 17  |           [Four card feature section](https://github.com/pavankalyan-codes/UI-Designs/tree/main/four-card-feature-section)            |              [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/four-card-feature-section/)               |
+| 18  |           [Order summary component](https://github.com/pavankalyan-codes/UI-Designs/tree/main/order-summary-component-main)            |              [Live Demo](https://pavankalyan-codes.github.io/UI-Designs/order-summary-component-main/)               |
 
 ## Contributing
 
